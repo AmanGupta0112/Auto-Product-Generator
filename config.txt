@@ -1,0 +1,21 @@
+Instruction to run the scripts to perform add/delete/update to the website through automation:-
+
+->First download the excel sheet from the website and add the path to the script.
+->Enter the username and password.
+->Now select the function to perform :
+	
+-> Add Functoin :-
+	             Add Product function,This Function required all the fields to create a new product you just need to add the product detail which is asked in the Script related to the product.And after this the Script will automate the creation of the product after adding it to the excel.
+
+->Delete Function :-
+	                Delete product function , In this you need to enter the name of the product and follow the instructions to confirm the delete.And the Script will automate the delete function.And delete the selected product and also reflect the work in the excel sheet.
+
+->Update Function :-
+	                    Update product, You need to enter the name of the product.To update the required fields you need to select and enter the field details you want to change and Rest leave on the Script to do it's work.
+
+Requirements(Packages):-
+-geckodriver
+-Pandas 
+-Selenium
+-openpyxl
+-DateTime
